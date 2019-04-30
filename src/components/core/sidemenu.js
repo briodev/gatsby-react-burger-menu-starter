@@ -44,7 +44,7 @@ const MenuStyle = styled.div`
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #111;
   }
   
   /* Position and sizing of clickable cross button */
