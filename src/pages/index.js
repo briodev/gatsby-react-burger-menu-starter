@@ -1,17 +1,10 @@
 import React from "react"
-import Slide from "../components/layouts/slide"
-import Logo from "../components/core/logo.component"
+import Layout from '../layouts/main-layout'
 
-export default () => (
-
-
-        <Slide>
-            <div>
-                <Logo width="180px"></Logo>
-                <h1>This is a title</h1>
-                <div>Hello world!</div>
-            </div>
-        </Slide>
-
-
-)
+export default () => {
+  return (
+    <Layout>
+      <h1>Home Page</h1>
+    </Layout>
+  )
+}

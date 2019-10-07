@@ -1,14 +1,9 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+
 module.exports = {
-    siteMetadata: {
-        title: 'Gatsby Default Starter',
-    },
-    plugins: [
-        {
-        resolve: `gatsby-plugin-typography`,
-            options: {
-            pathToConfigModule: `src/utils/typography`,
-            }
-        },
-        `gatsby-plugin-emotion`
-    ],
+  /* Your site config here */
 }
