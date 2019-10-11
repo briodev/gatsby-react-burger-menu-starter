@@ -4,10 +4,6 @@ import { slide as Menu } from 'react-burger-menu'
 import styled from '@emotion/styled'
 
 
-// import logo from '../../images/logo/east-coast-granite-logo.png'
-
-
-
 export default () => {
 
   const [menuState, setMenuOpen] = useState({menuOpen: false});
@@ -19,12 +15,6 @@ export default () => {
   return (
     <>
         <TopNav className="sticky-top">
-            {/* <Logo>
-              <a href="#" className="logo">
-                <img src={logo} alt="East Coast Granite Logo" width="150px" height="auto"/>
-              </a>
-            </Logo> */}
-
             
             <NavItems>
               <Link to="/" >Home</Link>
